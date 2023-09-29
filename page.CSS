@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url(IMAGES/my\ cover.jpg);
+    background-size: cover;
+   
+}
+
+.login-form{
+position: absolute;
+top: 27%;
+left: 40%;
+    color:rgb(145, 183, 185);
+}
+.login-form h1{
+    color:rgb(145, 183, 185);
+font-size: 40px;
+text-transform: uppercase;
+margin: 40px 0;
+}
+.login-form p{
+    color:rgb(145, 183, 185);
+font-size: 20px;
+margin-top: 10px;
+}
+.login-form input{
+font-size: 20px;
+border-radius: 5px;
+}
+.login-form a{
+    font-size: 7px;
+}
+.login-form a{
+font-size: 8px;
+}

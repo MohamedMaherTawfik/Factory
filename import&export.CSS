@@ -1,0 +1,170 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000016;
+}
+section{
+    margin-top: 50px;
+}
+.PARAGRAH{
+color: #fff;
+transform: translate(400PX,70PX);
+font-size: 20PX;
+}
+
+.titles{
+display: flex;
+justify-content: center;
+color:rgb(116, 21, 21);
+font-size: 2.2em;
+font-weight: 600;
+margin: 30px;
+}
+
+.contents{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.export{
+    background-color: #000016;
+}
+.export.contents{
+    margin-top: 10px;
+}
+    
+.export-card{
+background-color: antiquewhite;
+border: 1px solid #fff;
+min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+
+.export-card:hover{
+    transform: scale(1.1);
+}
+
+.export-card:hover .export-image{
+opacity: 0.8;
+}
+
+.export-image img{
+    width: 100%;
+}
+.export-info{
+padding: 1em;
+}
+
+.export-category{
+font-size: 0.8em;
+color: black;
+}
+
+.export-title{
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+font-weight: 800;
+margin-top: 10px;
+}
+
+.more-dtails:hover{
+color: #601cfc;
+}
+
+.import{
+    background-color: #000016;
+}
+.import.contents{
+    margin-top: 10px;
+}
+    
+.import-card{
+background-color: antiquewhite;
+border: 1px solid #fff;
+min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+
+.import-card:hover{
+    transform: scale(1.1);
+}
+
+.import-card:hover .import-image{
+opacity: 0.8;
+}
+
+.import-image img{
+    width: 100%;
+}
+.import-info{
+padding: 1em;
+vertical-align: middle;
+}
+
+.import-category{
+font-size: 0.8em;
+color: black;
+}
+
+.import-title{
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+font-weight: 800;
+margin-top: 10px;
+}
+
+.more-dtails:hover{
+color: #601cfc;
+}
+.import b{
+    font-size: 35px;
+    color: aqua;
+    position: absolute;
+    top:15%;
+    left: 22%;
+}
+.import c{
+font-size: 35px;
+color: aqua;
+position: absolute;
+top:45%;
+left: 22%;
+}
+.export b{
+font-size: 35px;
+color: aqua;
+position: absolute;
+top:88%;
+left: 22%; 
+}
+.export c{
+    font-size: 35px;
+color: aqua;
+position: absolute;
+top: 128%;
+left: 22%; 
+}
+.export d{
+    font-size: 35px;
+    color: aqua;
+    position: absolute;
+    top: 165%;
+    left: 22%;
+}

@@ -1,0 +1,88 @@
+*{
+padding: 0; 
+margin: 0;
+font-family: sans-serif;
+}
+body{
+font-size: 20PX;
+background: url(IMAGES/login.webp)no-repeat;
+background-size: cover;
+}
+.icon a{
+color: #fff;
+text-decoration: none;
+}
+.icon{
+top: 2%;
+left: 3%;
+position: absolute;
+color:white;
+background-color: rgb(53, 112, 112);
+font-size: 1em;
+font-weight: 400 ;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}
+.icon:hover{
+background-color: rgb(10, 43, 43);
+transform:scale(1.1);
+}
+.login-form{
+color:rgb(0, 0, 0);
+width: 250;
+height: 300px;
+top: 25%;
+left: 40%;
+position: absolute;
+transform: translate(-50%-50%);
+color: #fff;
+padding: 70px 30px;
+}
+.login-form h1{
+    color:rgb(0, 0, 0);
+font-size: 50px;
+text-transform: uppercase;
+margin: 40px 0;
+}
+.login-form p{
+    color:rgb(0, 0, 0);
+font-size: 30px;
+margin-top: 10px;
+}
+.login-form b{
+    color:rgb(0, 0, 0);
+font-size: 40px;
+font-weight: 300;
+margin-top: 10px;
+}
+.login-form input{
+font-size: 30px;
+border-radius: 5px;
+}
+.sign a{
+color: #fff;
+text-decoration: none;
+}
+.sign{
+top: 2%;
+left: 15%;
+position: absolute;
+color:white;
+background-color: rgb(53, 112, 112);
+font-size: 1em;
+font-weight: 400 ;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}
+.sign:hover{
+background-color: rgb(10, 43, 43);
+transform:scale(1.1);
+}
